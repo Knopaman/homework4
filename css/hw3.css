@@ -1,0 +1,168 @@
+body{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+}
+.clear_fix:after{
+    clear: both;
+    display: block;
+    content: " ";
+}
+.container {
+    margin: 0 auto;
+    background-color: white;
+    width: 1000px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+.cont {
+    line-height: 19px;
+    opacity: 0.8;
+    color: #128aa7;
+    font-size: 12px;
+    margin-right: 31px;
+    margin-top: 6px;
+    float: right;
+}
+img {
+    margin-left: 27px;
+    margin-top: 12px;
+}
+.countries {
+    margin-right: 32px;
+    margin-top: -65px;
+}
+.countries li{
+    float: right;
+}
+.countries li a{
+    display: block;
+    text-align: center;
+    padding-top: 44px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #128aa7;
+    font-size: 10px;
+    font-weight: 400;
+    width: 56px
+}
+.countries .india a{
+    background-image: url("../img/i_flag.png");
+}
+.countries .nepal a{
+    background-image: url("../img/n_flag.png");
+}
+.countries .tibet a{
+    background-image: url("../img/t_flag.png");
+}
+.countries .butan a{
+    background-image: url("../img/b_flag.png");
+}
+.countries .shri a{
+    background-image: url("../img/s_flag.png");
+}
+.countries .mald a{
+    background-image:url("../img/m_flag.png");
+}
+.blue {
+    margin-left: auto;
+    margin-top: 10px;
+}
+.nav{
+    display: block;
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+.nav li a{
+    display: block;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    background-color: #353535;
+    text-align: left;
+
+}
+#main{
+    padding-left: 65px;
+    padding-right: 57px;
+}
+#travel{
+    padding-right: 40px;
+    padding-left: 11px;
+}
+#services{
+    padding-right: 38px;
+    padding-left: 9px;
+}
+#part {
+    padding-right: 40px;
+    padding-left: 11px;
+}
+#report{
+    padding-right: 38px;
+    padding-left: 18px;
+}
+#about{
+    padding-right: 41px;
+    padding-left: 36px;
+}
+#contakts{
+    padding-right: 63px;
+    padding-left: 21px;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    width: 141px;
+    top: 30px;
+    left: 174px;
+    background-color: #353535;
+    padding-left: 9px;
+}
+
+.submenu  li {
+    display: block;
+}
+.submenu  li  a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+.nav li:hover ul.submenu {
+    display: block;
+}
+.fon {
+    overflow: hidden;
+}
+.leftColumn, .rightColumn{
+    color: #424c43;
+    font-weight: 400;
+    line-height: 31px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    width: 210px;
+    background-color: #edeef0;
+    font-size: 14px;
+    text-align: center;
+}
+.leftColumn:first-line, .rightColumn:first-line{
+    color: #424c43;
+    font-size: 18px;
+    font-weight: 400;
+}
+.leftColumn {
+    float: left;
+}
+.rightColumn {
+    float: right;
+}
+.footer {
+    text-align: center;
+    opacity: 0.8;
+    color: white;
+    font-size: 12px;
+    line-height: 35px;
+}
